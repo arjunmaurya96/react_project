@@ -7,7 +7,7 @@ const Contact = () => {
 
 
 
-      <div className="section-head hds col-sm-12">
+      <div className="section-head hds col-sm-12" id='contact'>
         <h4><span>CONTACT</span> US  </h4>
 
 
