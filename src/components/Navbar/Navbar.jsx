@@ -15,9 +15,9 @@ const Navbar = () => {
         <>
             {/* Nvbar Starting  */}
             <header id="home" className=''>
-                <nav className="navbar navbar-expand-lg bg-white px-4 border-bottom fixed-top">
+                <nav className="navbar navbar-expand-lg bg-white px-4 border-bottom fixed-top font-fmasld">
                     <div className="container-fluid full">
-                        <a className="navbar-brand fs-2 fw-bold" href="#">SE - <span className="text-danger"> Enterprises  </span></a>
+                        <a className="navbar-brand fs-2 fw-bold" href="#">SE-<span className="text-danger"> Enterprises  </span></a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -121,7 +121,7 @@ const Navbar = () => {
 
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active pt-5" data-bs-interval="2000">
+                    <div class="carousel-item active pt-5" data-bs-interval="4000">
                         <img src={slidere} className="d-block w-100 hello" alt="..." />
                         <div className="carousel-caption">
                             <h1 className='txt-slider'>Computer PC on Rent </h1>
@@ -130,10 +130,10 @@ const Navbar = () => {
                             {/* <p><a href="#" className='btn btn-danger mt-3'>Learn More...</a></p> */}
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
+                    <div class="carousel-item" data-bs-interval="4000">
                         <img src={slider2} className="d-block w-100" alt="..." />
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
+                    <div class="carousel-item" data-bs-interval="4000">
                         <img src={slider3} className="d-block w-100" alt="..." />
                     </div>
                 </div>

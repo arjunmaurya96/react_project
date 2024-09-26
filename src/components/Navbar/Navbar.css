@@ -1,4 +1,6 @@
-
+/* .font-fmasld{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important ;
+} */
 
 .nav-link {
     color: #000;
@@ -11,7 +13,12 @@
 } */
 .dropdown-menu .dropdown-item {
     text-transform: uppercase;  
-    font-size: 15px;
+    font-size: 13px;
+     font-family: 'Raleway', sans-serif !important;
+     /* font-family: 'Lato', sans-serif; */
+     /* font-family: 'Raleway', sans-serif; */
+
+
   
 }
 
