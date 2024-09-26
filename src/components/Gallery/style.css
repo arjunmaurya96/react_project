@@ -1,0 +1,96 @@
+/* Modal styles */
+
+
+.sectio{
+    /* margin-bottom: 60px; */
+    /* margin: 100px; */
+    /* padding-top: 100px; */
+}
+.sectio h1{
+
+    position: relative;
+    padding: 0;
+    color: #f91942;
+    /* color: #006eff; */
+    line-height: 1;
+    letter-spacing: 0.3px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 30px;
+}
+.sectio h1 span{
+  font-size: 35px;
+}
+
+.sectio h1::before{
+content:' ';
+width: 190px;
+height: 3px;
+background-color: #f91942;
+/* background-color: #006eff; */
+transition: all 0.6s ease;
+position: absolute;
+bottom: -15px;
+left: 0;
+right: 0;
+margin: 0 auto;
+}
+
+
+
+
+
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .container.gallery {
+    padding: 20px;
+  }
+  
+  .container.gallery h1 {
+    font-size: 2rem;
+  }
+  
+  .styled-hr {
+    border: 2px solid #dc3545; /* Styled horizontal line in red */
+  }
+  
+  /* Image hover effect */
+  .gallery img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.05); /* Slight zoom-in effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .gallery img {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 1.2rem;
+    }
+  
+    .gallery img {
+      margin-bottom: 15px;
+    }
+  }
+  
+  /* Show modal only when necessary */
+  .modal.d-block {
+    display: block !important;
+  }
+  

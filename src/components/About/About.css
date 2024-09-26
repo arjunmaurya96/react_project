@@ -1,0 +1,47 @@
+
+.aboutheading{
+ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.section-head{
+    /* margin-bottom: 60px; */
+    /* margin: 100px; */
+    padding-top: 100px;
+}
+.section-head h4{
+
+    position: relative;
+    padding: 0;
+    color: #f91942;
+    /* color: #006eff; */
+    line-height: 1;
+    letter-spacing: 0.3px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 30px;
+}
+
+.section-head h4::before{
+content:' ';
+width: 190px;
+height: 9px;
+background-color: #f91942;
+/* background-color: #006eff; */
+transition: all 0.6s ease;
+position: absolute;
+bottom: -10px;
+left: 0;
+right: 0;
+margin: 0 auto;
+}
+.section-head h4 span{
+    font-weight: 700;
+    padding-bottom: 5px;
+    color: #2f2f2f;
+
+}
+
